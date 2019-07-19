@@ -21,15 +21,15 @@ JFrame object = new JFrame();
 object.isVisible();
 		// 3. Run your program. Do you see your window? It's probably very
 		// small.
-object.setSize(100, 100);
+
 		// 4. Set the default close operation to JFrame.EXIT_ON_CLOSE
 object.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// 5. Create and initialize an object of the JPanel class
-
+JPanel jpanel = new JPanel();
 		// 6. Create and initialize an object of the JLabel class
-
+JLabel jlabel = new JLabel();
 		// 7. Set the text of the JLabel to a lovely greeting.
-
+jlabel.setText("a lovely greeting");
 		// 8. Add the JPanel object to the JFrame
 
 		// 9. Add the JLabel object to the JPanel
@@ -43,6 +43,7 @@ object.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// 13. Re-pack the JFrame object.
 
 		// 14. Run the program one more time. Do you see the image?
+
 
 	}
 
