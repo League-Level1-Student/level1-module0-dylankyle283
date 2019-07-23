@@ -7,5 +7,11 @@ package _02_my_first_swing_gui;
 public class MyFirstSwingGUIRunner {
 	public static void main(String[] args) {
 		new MyFirstSwingGUI().run();
+	
+
+	
+
+
+	
 	}
 }
