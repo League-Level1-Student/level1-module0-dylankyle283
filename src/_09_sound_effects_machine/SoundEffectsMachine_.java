@@ -11,11 +11,14 @@ import javax.swing.JPanel;
 
 
 	public class SoundEffectsMachine_ implements ActionListener {
+		 JButton button;
+		    JButton button2;
+		    JButton button3;
 		   public void showButton() {
 		   JFrame frame = new JFrame();
-		    JButton button = new JButton();
-		    JButton button2 = new JButton();
-		    JButton button3 = new JButton();
+		   button = new JButton();
+		   button2 = new JButton();
+		   button3 = new JButton();
 		    JPanel panel = new JPanel();
 		    frame.add(panel);
 		   panel.add(button);
@@ -36,8 +39,18 @@ import javax.swing.JPanel;
 
 		
 		public void actionPerformed(ActionEvent e ) {
-		playSound("sawing-wood-daniel_simon.wav");
-			
+		
+			if (e.getSource().equals(button)) {
+				playSound("sawing-wood-daniel_simon.wav");
+			}
+			else if (e.getSource().equals(button2)) {
+				playSound("421184__inspectorj__water-pouring-a (1).wav");
+			}
+			else {
+				playSound("456440__inspectorj__bird-whistling-robin-single-13.wav");
+			}
+		
+		
 		}
 		private void playSound(String fileName) {
 		     AudioClip sound = JApplet.newAudioClip(getClass().getResource(fileName)); 
@@ -46,5 +59,7 @@ import javax.swing.JPanel;
 
 	}
 
-	
+	//
+	//
 
+	
