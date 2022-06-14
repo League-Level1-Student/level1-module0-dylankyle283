@@ -16,7 +16,7 @@ public class Jack_in_the_box implements ActionListener {
 		   public void showButton() {
 		   
 		    JFrame frame = new JFrame();
-		    frame.setSize(500,500);
+		    
 		    JButton button = new JButton();
 		    frame.add(button);
 		    frame.pack();
