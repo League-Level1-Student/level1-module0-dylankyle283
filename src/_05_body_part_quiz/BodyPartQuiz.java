@@ -52,6 +52,7 @@ window.setVisible(true);
 
 		// 1. Make an int variable to hold the score.
 int score = 0;
+String[] answer = {"arnold","leonardo","morgan","jack"};
 		// 2. Set the size of the window in the initializeGui() method 
 for (int i = 0; i < 4; i++) {
 	
@@ -83,6 +84,7 @@ score ++ ;
 		// -- Tell them they are wrong and who the person is
 else {
 	System.out.println("you are wrong");
+	System.out.println(answer[i]);
 }
 		// 7. Use the showNextImage() method below to get the next image
 		System.out.println("score is " + score);

@@ -50,9 +50,9 @@ drawHouse();
 		 
 		 
 		 
-			String red = JOptionPane.showInputDialog("color?");
-			String green = JOptionPane.showInputDialog("color?");
-			String blue = JOptionPane.showInputDialog("color?");
+			String red = JOptionPane.showInputDialog("red RGB Value?");
+			String green = JOptionPane.showInputDialog("green RGB Value?");
+			String blue = JOptionPane.showInputDialog("blue RGB Value?");
 			
 			int redVal = Integer.parseInt(red);
 			int greenVal = Integer.parseInt(green);

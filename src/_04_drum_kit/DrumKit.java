@@ -84,6 +84,7 @@ System.out.println("mouse clicked");
 
 		if (drumLabelWithImage == drumClicked) {
 			playSound("drum.wav");
+			System.out.println("drum click");
 		}
     if (cymbalLabelWithImage == drumClicked) {
 		playSound("cymbal.wav");
