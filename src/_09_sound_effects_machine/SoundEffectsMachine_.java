@@ -42,6 +42,7 @@ import javax.swing.JPanel;
 		
 			if (e.getSource().equals(button)) {
 				playSound("sawing-wood-daniel_simon.wav");
+				System.out.println("wood");
 			}
 			else if (e.getSource().equals(button2)) {
 				playSound("421184__inspectorj__water-pouring-a (1).wav");

@@ -1,24 +1,24 @@
 import ddf.minim.*;     
 PImage pictureOfRecord; 
-Minim minim;      
-  AudioPlayer song;     
+//Minim minim;      
+  //AudioPlayer song;     
 int angle = 0;
 void setup() {
    size(600,600);                                 
         pictureOfRecord= loadImage("record.png");      
       pictureOfRecord.resize(600,600); 
-minim = new Minim(this);
-song = minim.loadFile("awesomeTrack.mp3", 512);
+//minim = new Minim(this);
+//song = minim.loadFile("awesomeTrack.mp3", 512);
 }
 void draw(){
     
     angle +=3;
      if(mousePressed){
 rotateImage(pictureOfRecord, angle);
-song.play();
+//song.play();
 }
   else{
-  song.pause();
+  //song.pause();
   }
     image(pictureOfRecord, 0, 0);
     
