@@ -18,8 +18,9 @@ void draw(){
 rainY +=5;
 if(rainY == 600){
 rainY = 0;
+ checkCatch(randomNumber);
  randomNumber = (int) random(600);
-checkCatch(randomNumber);
+
  
 
 }
